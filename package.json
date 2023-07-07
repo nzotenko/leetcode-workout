@@ -1,0 +1,20 @@
+{
+  "name": "leetcode-workout",
+  "version": "1.0.0",
+  "description": "My personal LeetCode playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nick Zotenko",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.1",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2"
+  }
+}
