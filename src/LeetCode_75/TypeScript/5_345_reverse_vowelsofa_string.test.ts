@@ -5,12 +5,12 @@ function reverseVowels(s: string): string {
     .map((symbol, i) => ("aeiou".includes(symbol) ? [symbol, i] : null))
     .filter(Boolean) as [string, number][];
 
-  const newVovelsPositions = vowelsMap.map(([_, i]) => i).reverse();
+  const newVowelsPositions = vowelsMap.map(([_, i]) => i).reverse();
 
   return symbols
     .map((s, i) =>
-      newVovelsPositions.includes(i)
-        ? vowelsMap[newVovelsPositions.indexOf(i)][0]
+      newVowelsPositions.includes(i)
+        ? vowelsMap[newVowelsPositions.indexOf(i)][0]
         : s
     )
     .join("");
