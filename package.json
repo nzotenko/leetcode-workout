@@ -9,12 +9,12 @@
   "author": "Nick Zotenko",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.6.1",
-    "prettier": "^3.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.2"
+    "@types/jest": "^29.5.10"
   }
 }
